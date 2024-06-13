@@ -1,5 +1,9 @@
+import HeroImage from '@/component/home/HeroImage'
+
 export default function Home() {
   return (
-    <h1>Hello World!</h1>
+    <div className="w-full h-[100vh] flex">
+      <HeroImage/>
+    </div>
   );
 }
