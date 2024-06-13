@@ -1,4 +1,4 @@
-import HeroImage from '@/component/home/HeroImage'
+import HeroImage from '@/components/home/HeroImage'
 
 export default function Home() {
   return (

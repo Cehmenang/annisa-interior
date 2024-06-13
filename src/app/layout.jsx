@@ -1,5 +1,5 @@
 import "./globals.css";
-import Nav from "@/component/navbar/Nav"
+import Nav from "@/components/navbar/Nav"
 
 export const metadata = {
   title: "Annisa Interior Design",
