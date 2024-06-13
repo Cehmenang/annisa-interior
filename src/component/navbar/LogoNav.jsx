@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Logo from "./img/Logo.png"
+import Logo from "/img/Logo.png"
 import Link from "next/link"
 
 export default function LogoNav(){
