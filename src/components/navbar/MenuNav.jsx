@@ -10,10 +10,10 @@ const menus = [
 
 export default function MenuNav(){
     const showMenu = menus.map((menu, index)=>{
-        return <Link href={menu.link} key={index+1} className="border-2 border-light">{menu.label}</Link>
+        return <Link href={menu.link} key={index+1} className="">{menu.label}</Link>
     })
 
     return(
-        <div className="list-menu flex gap-x-2">{showMenu}</div>
+        <div className="list-menu flex gap-x-6">{showMenu}</div>
     )
 }

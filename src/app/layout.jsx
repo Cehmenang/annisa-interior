@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-light text-dark relative">
         <Nav/>
-        <main>
+        <main className="w-[90%] mx-auto">
           {children}
         </main>
       </body>

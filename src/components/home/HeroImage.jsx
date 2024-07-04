@@ -1,4 +1,5 @@
 import Carousel from "./Carousel"
+import HeroTitle from "./HeroTitle"
 
 export default function HeroImage(){
     const images = [
@@ -7,10 +8,9 @@ export default function HeroImage(){
         { url: '/img/hero3.jpg' },
     ]
     return(
-        <div className="outer-hero">
-            <div className="hero border-2 border-dark w-full">
+            <div className="hero w-full flex pt-[130px] gap-x-12">
+                <HeroTitle/>
                 <Carousel images={images}/>
             </div>
-        </div>
     )
 }
