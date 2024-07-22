@@ -26,6 +26,7 @@ export default function MenuNav(){
     function menuList(){
         click === false ? isClicked(true) : true
         click === true ? isClicked(false) : true
+        return true
     }
 
     return(
