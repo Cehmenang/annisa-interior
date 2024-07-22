@@ -16,7 +16,7 @@ export default function Carousel({images}){
                 <Slider/>
             </div>
             <div className="absolute inset-0 flex items-center justify-between text-light">
-               <button onClick={()=>setCurr(curr=>curr == 0 ? images.length - 1 : curr - 1 )}>Kiri</button>
+               <button onClick={()=>setCurr(curr=>curr == 0 ? images.length - 1 : curr - 1 )}>TOMBOL</button>
                <button onClick={()=>setCurr(curr=>curr == images.length - 1 ? 0 : curr + 1 )}>Kanan</button>
             </div>
 
