@@ -9,7 +9,7 @@ export default function Carousel({images}){
     const Slider = ()=>{ return images.map((image, index)=>{ return <Image src={image.url} width={1000} height={1000} key={index+1}/> })}
 
     return (
-        <div className="overflow-hidden relative w-[100%]">
+        <div className="overflow-hidden absolute left-0 md:relative w-[100%] mx-auto row-start-1 row-end-2">
             <div className="overflow-hidden h-[62vh]">
 
             <div className="flex transition-transform ease-out duration-500" style={{ transform: `translateX(-${curr*100}%)` }}>
