@@ -33,7 +33,7 @@ export default function MenuNav(){
         <>
         <div className="list-menu gap-x-6 hidden md:flex">{showMenu}</div>
         <div className="flex md:hidden"><button onClick={menuList}><Image src={"/icon/ham.png"} width={24} height={20}/></button></div>
-        { click === true ? <div className="list-menu md:hidden absolute top-[68px] left-0 flex flex-col w-full">
+        { click === true ? <div className="list-menu md:hidden absolute top-[60px] left-0 flex flex-col w-full">
             {showMenu}
         </div> : true }
         
