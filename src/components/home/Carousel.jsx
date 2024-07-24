@@ -10,7 +10,7 @@ export default function Carousel({images}){
 
     return (
         <div className="overflow-hidden absolute left-0 md:relative w-[100%] mx-auto row-start-1 row-end-2">
-            <div className="overflow-hidden h-[62vh]">
+            <div className="overflow-hidden h-[30vh] md:h-[62vh]">
 
             <div className="flex transition-transform ease-out duration-500" style={{ transform: `translateX(-${curr*100}%)` }}>
                 <Slider/>
